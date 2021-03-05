@@ -1,0 +1,90 @@
+header {
+  line-height: 30px;
+  padding: 3px;
+  background: orange;
+  border-radius: 10px;
+}
+#menu {
+  display: flex;
+  justify-content:space-between;
+}
+#top{
+  padding: 8px 5px;
+  margin: 0 5px;
+  color: orangered;
+  background: #fff;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 24px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#admin {
+  padding: 8px;
+  margin: 0 10px;
+  font-size: 20px;
+  color: #000;
+  background: #fff;
+  border: 1px solid gray;
+  border-radius: 20px;
+}
+header > a {
+  display: block;
+}
+#top:hover {
+  opacity: 0.5;
+}
+#admin:hover {
+  background-color: cornsilk;
+  opacity: 0.5;
+}
+
+#menu > ul {
+  display: flex;
+  justify-content:space-between;
+}
+#menu > ul > li{
+  padding: 5px;
+  margin: 0 10px;
+  color: #000;
+  background: #fff;
+  border: 1px solid gray;
+  border-radius: 20px;
+}
+#menu > ul > li:hover {
+  background-color: cornsilk;
+  opacity: 0.5;
+}
+
+p {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+#form {
+  width: 100%;
+  margin: 0 auto;
+}
+#search {
+  width: 95%;
+  height: 30px;
+  margin: 10px;
+  margin-top: 0;
+  margin-left: 20px;
+}
+table {
+  width: 800px;
+  margin: 30px auto;
+}
+tr {
+  height: 30px;
+}
+th, td {
+  text-align: center;
+  font-size: 14px;
+  line-height: 30px;
+  margin: 0 auto;
+  padding: 5px;
+  border: 1px solid #000;
+}

@@ -1,0 +1,66 @@
+header {
+  line-height: 30px;
+  padding: 3px;
+  background: orange;
+  border-radius: 10px;
+}
+#head {
+  display: flex;
+  justify-content:space-between;
+}
+#top{
+  padding: 8px 5px;
+  margin: 0 5px;
+  color: orangered;
+  background: #fff;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 24px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#admin{
+  padding: 8px;
+  margin: 0 10px;
+  font-size: 20px;
+  color: #000;
+  background: #fff;
+  border: 1px solid gray;
+  border-radius: 20px;
+}
+header > a {
+  display: block;
+}
+#top:hover {
+  opacity: 0.5;
+}
+#admin:hover {
+  background-color: cornsilk;
+  opacity: 0.5;
+}
+
+#menu {
+  width: 700px;
+  height: 300px;
+  margin: 0 auto;
+}
+ul {
+  width: 100%;
+  height: 150px;
+  font-size: 24px;
+}
+li {
+  color: #000;
+  line-height: 60px;
+  text-align: center;
+  background:#FFCC33;
+  border: 1px solid #fff;
+  border-radius: 100px;
+  margin: 30px;
+}
+ul > a > li:hover {
+  opacity: 0.6;
+  transition: all 0.5s ease;
+  background:#fff;
+  border: 1px solid #000;
+  border-radius: 100px;
+}

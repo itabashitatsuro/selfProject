@@ -1,0 +1,101 @@
+header {
+  line-height: 30px;
+  padding: 3px;
+  background: orange;
+  border-radius: 10px;
+}
+
+#menu {
+  display: flex;
+  justify-content:space-between;
+}
+#top{
+  padding: 8px 5px;
+  margin: 0 5px;
+  color: orangered;
+  background: #fff;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 24px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#logout{
+  padding: 8px;
+  margin: 0 10px;
+  font-size: 20px;
+  color: #000;
+  background: #fff;
+  border: 1px solid gray;
+  border-radius: 20px;
+}
+header > a {
+  display: block;
+}
+#top:hover {
+  opacity: 0.5;
+}
+#logout:hover {
+  background-color: cornsilk;
+  opacity: 0.5;
+}
+
+#link {
+  width: 700px;
+  height: 300px;
+  margin: 30px auto 0;
+}
+ul {
+  width: 100%;
+  height: 150px;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+ul > a {
+  width: 50%;
+  flex-grow: 1;
+  background:#FFCC33;
+  border: 10px solid #fff;
+  border-radius: 100px;
+  box-sizing: border-box;
+}
+li {
+  color: #000;
+  line-height: 60px;
+  text-align: center;
+}
+ul > a:hover {
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: bold;
+  background:#fff;
+  border: 1px solid #000;
+}
+
+#btn {
+  width: 100px;
+  height: 100%;
+  margin: 10px auto 50px;
+}
+.btn {
+  width: 100px;
+  height: 60px;
+  padding: 12px;
+  margin: 0 auto;
+  border: 1px solid #000;
+  border-radius: 50px;
+  color: #fff;
+  background: #FF6600;
+}
+.btn:hover {
+  opacity: 0.3;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: bold;
+  color: #FF6600;
+  background:#fff;
+  border: 1px solid #FF6600;
+}
+

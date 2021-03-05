@@ -1,0 +1,74 @@
+#head-line {
+  width: 500px;
+  margin: 30px auto;
+}
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 40px;
+  margin: 20px;
+  color: #fff;
+  background: orange;
+  border-radius: 30px;
+  text-align: center;
+}
+
+form, table, #ul {
+  width: 700px;
+  margin: 0 auto;
+}
+tr {
+  margin: 15px;
+}
+th {
+  text-align: right;
+}
+input {
+  line-height : 30px;
+  width: 400px;
+  margin: 10px;
+  margin-left: 10px;
+}
+select {
+  line-height : 30px;
+  height: 30px;
+  width: 110px;
+}
+#submit {
+  width: 600px;
+  padding: 30px;
+  margin: 0 auto;
+  text-align: center;
+}
+.edit_btn {
+  text-align: center;
+  font-size: 20px;
+  width: 200px;
+  line-height: 30px;
+  padding: 5px;
+  border-radius: 30px;
+  color: white;
+  background: blue;
+}
+.edit_btn:hover {
+  opacity: 0.5;
+  cursor: pointer;
+  line-height: 30px;
+  padding: 5px;
+  color: blue;
+  background: white;
+  border: 1px solid blue;
+  font-weight: bold;
+}
+.submit_btn {
+  font-size: 18px;
+  width: 200px;
+  padding: 5px;
+  border: 1px solid #000;
+  border-radius: 15px;
+  color: #000;
+}
+.submit_btn:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}

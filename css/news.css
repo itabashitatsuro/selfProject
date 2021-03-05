@@ -1,0 +1,44 @@
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 40px;
+  margin: 20px;
+  color: #fff;
+  background: orange;
+  border-radius: 30px;
+  text-align: center;
+}
+h5 {
+  background: lightskyblue;
+  opacity: 0.7;
+  border-radius: 30px;
+  padding: 5px;
+}
+#text {
+  width: 800px;
+  margin: 20px auto;
+  border: 1px solid #000;
+}
+#btn {
+  width: 500px;
+  padding: 30px;
+  margin: 0 auto;
+  text-align: center;
+}
+#btn > a {
+  text-align: center;
+}
+.btn {
+  width: 120px;
+  height: 40px;
+  padding: 12px;
+  margin: 0 auto;
+  text-align: center;
+  border: 1px solid #000;
+  border-radius: 15px;
+  color: #000;
+  background: #FFCCCC;
+}
+.btn:hover {
+  opacity: 0.5;
+}

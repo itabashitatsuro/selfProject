@@ -1,0 +1,87 @@
+.error {
+  margin-top: 20px;
+  text-align: center;
+  color: red;
+  font-size: 20px;
+}
+
+section {
+  width: 800px;
+  height: 500px;
+  margin: 0 auto;
+}
+
+#title {
+  width: 350px;
+  margin: 0 auto;
+  font-size: 30px;
+  text-align: center;
+  background: orange;
+  box-shadow: 0 10px 15px 0 rgba(247, 235, 169, 0.849);
+  border-radius: 10px;
+}
+
+#wrapper {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.span {
+  color: red;
+  font-size: 15px;
+}
+
+#form {
+  width: 500px;
+  margin: 30px auto;
+  font-size: 20px;
+}
+
+#textbox {
+  margin: 0 auto;
+}
+
+ul {
+  margin: 10px auto 30px;
+}
+
+#textbox > ul > li > input {
+  width: 500px;
+  line-height: 30px;
+}
+
+#btn {
+  width: 200px;
+  margin: 0 auto;
+}
+
+#btn > ul > li {
+  width: 200px;
+  text-align: center;
+  margin: 20px auto;
+}
+#btn > ul > li > a {
+  width: 150px;
+}
+
+#login {
+  line-height: 30px;
+  font-size: 20px;
+  padding: 5px;
+}
+
+#sign_up {
+  height: 40px;
+  padding: 12px 25px;
+  border: 1px solid #000;
+  border-radius: 20px;
+  color: #000;
+  background: #FFCCCC;
+}
+
+#sign_up:hover {
+  opacity: 0.5;
+}
+
+
+

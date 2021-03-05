@@ -1,0 +1,77 @@
+#head-line {
+  width: 400px;
+  margin: 30px auto;
+}
+.error {
+  color:red;
+}
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 40px;
+  margin: 20px;
+  color: #fff;
+  background: orange;
+  border-radius: 30px;
+  text-align: center;
+}
+h3 {
+  font-size: 20px;
+  font-weight: bold;
+  color: blue;
+  line-height: 40px;
+  text-align: center;
+}
+p {
+  text-align: center;
+}
+form, table, #ul {
+  width: 700px;
+  margin: 0 auto;
+}
+tr {
+  margin: 15px;
+}
+th {
+  text-align: right;
+}
+input {
+  line-height : 30px;
+  width: 400px;
+  margin: 10px;
+  margin-left: 10px;
+}
+select {
+  line-height : 30px;
+  height: 30px;
+  width: 110px;
+}
+#btn {
+  width: 500px;
+  padding: 5px;
+  margin: 0 auto;
+  text-align: center;
+}
+#btn > a {
+  text-align: center;
+  padding: 10px 60px;
+}
+.submit {
+  width: 160px;
+  line-height: 40px;
+  border: 1px solid #000;
+  border-radius: 15px;
+  font-size: 16px;
+  color: #fff;
+  background: blue; 
+}
+.btn {
+  padding: 10px;
+  border: 1px solid #000;
+  border-radius: 15px;
+  color: #000;
+  background: #FFCCCC;
+}
+.btn:hover {
+  opacity: 0.5;
+}

@@ -1,0 +1,105 @@
+#wrapper {
+  width: 800px;
+  height: 100%;
+  margin: 0 auto;
+}
+#head-line {
+  width: 500px;
+  margin: 30px auto;
+}
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 40px;
+  margin: 20px;
+  color: #fff;
+  background: orange;
+  border-radius: 30px;
+  text-align: center;
+}
+p {
+  text-align: center;
+  font-size: 24px;
+}
+#sold_info {
+  padding: 20px;
+  width: 750px;
+  margin: 0 auto;
+}
+#img {
+  display: flex;
+  justify-content: center;
+}
+.img {
+  width: 250px;
+  height: 250px;
+  margin: 5px;
+  display: block;
+}
+.show {
+  width: 700px;
+  height: 60px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 3px solid orange;
+  border-radius: 20px;
+  display: flex;
+  justify-content: flex-start;
+}
+.show > p {
+  display: block;
+  font-size: 20px;
+  width: 150px;
+  text-align: right;
+}
+h5 {
+  display: block;
+  font-size: 20px;
+  width: 400px;
+  text-align: center;
+}
+#text {
+  width: 700px;
+  height: 300px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 3px solid orange;
+  border-radius: 20px;
+}
+.text {
+  display: block;
+  font-size: 20px;
+  width: 400px;
+}
+#btn {
+  width: 500px;
+  padding: 30px;
+  margin: 0 auto;
+  text-align: center;
+}
+#btn > a {
+  text-align: center;
+}
+#submit {
+  width: 150px;
+  height: 40px;
+  padding: 10px;
+  margin: 0 auto;
+  text-align: center;
+  border: 1px solid #000;
+  border-radius: 15px;
+  color: #000;
+}
+#submit:hover {
+  opacity: 0.5;
+}
+
+.stripe-button-el {
+  width: 350px;
+  max-width: 100%;
+}
+.stripe-button-el span {
+  font-size: 18px;
+  padding-top: 15px;
+  min-height: 60px!important;
+}
